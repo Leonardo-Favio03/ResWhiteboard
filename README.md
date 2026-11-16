@@ -17,18 +17,18 @@ El proyecto sigue un enfoque modular basado en funciones puras y paquetes indepe
 
 ```text
 ResWhiteboard/
-├── go.mod                   # Definición del módulo único de Go
-├──.gitignore                # ignorar esto(paqute de preferencias del ide)
-├── README.md                # Documentación del proyecto
-├── main.go                  # Punto de entrada y orquestación
-├── usuarios/
-│   └── usuarios.go          # Funciones de acceso y auditoría
 ├── catalogo/
 │   └── catalogo.go          # Funciones de menú y precios
+├── finanzas/
+│   └── finanzas.go          # Funciones de control de caja
 ├── pedidos/
 │   └── pedidos.go           # Funciones de cálculo de órdenes
-└── finanzas/
-    └── finanzas.go          # Funciones de control de caja
+├── usuarios/
+│   └── usuarios.go          # Funciones de acceso y auditoría
+├──.gitignore                # ignorar esto(paqute de preferencias del ide)
+├── README.md                # Documentación del proyecto
+├── go.mod                   # Definición del módulo único de Go
+└── main.go                  # Punto de entrada y orquestación
 ```
 
 ## 🚀 Cómo verificar y compilar el proyecto
